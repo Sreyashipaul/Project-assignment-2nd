@@ -1,0 +1,57 @@
+
+.container{
+  position: absolute;
+   width: 1440px;
+   height: 575px;
+   left: 100px;
+   top: 0px;
+  background-color: #f0fff0;
+}
+.d-block{
+  
+  width:  118.07px;
+  height:40px;
+  left: 250px;
+  top: 45px;
+}
+.navbar-nav{
+  position: static;
+ width: 47px;
+  height: 24px;
+ left: 5px;
+ top: 5px;
+}
+.b-block{
+
+  position:center;
+  width:550px;
+   margin-left: 250px;
+   margin-right: 49.76%;
+   margin-top: 50%;
+   bottom: 50.76%;
+}
+.cat1, .cat2, cat3{
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.cat1{
+  background-color: orange;
+}
+.cat2{
+  background-color: orchid;
+}
+.cat3{
+  background-color: blue;
+}
+.categories h1{
+  color: white;
+}
+.categories img{
+  position: absolute;
+   width: 66px;
+   height: 85px;
+   left: 231px;
+    top: 672px;
+
+background: url(image.png);
+}
