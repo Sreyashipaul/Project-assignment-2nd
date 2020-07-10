@@ -1,25 +1,47 @@
-
+                                   /*.....Eschool -Style.Css...*/
+/* div(contaiiner)*/
 .container{
-  position: absolute;
-   width: 1440px;
-   height: 575px;
-   left: 100px;
-   top: 0px;
+  width: 1440px;
+  height: 576px;
+  top: 0px;
   background-color: #f0fff0;
 }
-.d-block{
+
+.logo-img{
   
   width:  118.07px;
   height:40px;
   left: 250px;
   top: 45px;
 }
-.navbar-nav{
+#navbarNav{
   position: static;
- width: 47px;
+  width: 47px;
   height: 24px;
- left: 5px;
- top: 5px;
+  left: 5px;
+  top: 5px;
+}
+/*......button (sing in)......... */
+.btn-Sign-in{
+  
+ padding:8px;
+ width: 104px;
+ height: 43px;
+
+ background: #21B573;
+ border-radius: 33px;
+ color: #FFFFFF;
+}
+h1{
+  width: 405px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  
+}
+#f-block{
+  color: green;
 }
 .b-block{
 
@@ -30,28 +52,212 @@
    margin-top: 50%;
    bottom: 50.76%;
 }
-.cat1, .cat2, cat3{
-  padding: 10px 30px;
-  border-radius: 10px;
+.text{
+   color: red;
+   font-size: 16px;
 }
-.cat1{
-  background-color: orange;
-}
-.cat2{
-  background-color: orchid;
-}
-.cat3{
-  background-color: blue;
-}
-.categories h1{
-  color: white;
-}
-.categories img{
-  position: absolute;
-   width: 66px;
-   height: 85px;
-   left: 231px;
-    top: 672px;
+                              /*......Catagories........ */
+/*..........Container-Categories........*/
+#categories{
+  width: 1100px;
+  height: 400px;
 
-background: url(image.png);
 }
+.cat1, .cat2, .cat3,.cat4{
+  
+  width:270px;
+  height: 270px;
+  margin-top: 20px;
+  margin-left: 110px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  align-items: center;
+  
+}
+.categories-img-block{
+  width: 66px;
+  height: 85px;
+  margin-left: 100px;
+  margin-bottom: 150px;
+  align-items: center;
+ 
+}
+.categories-body{
+   width: 138px;
+  height: 36px;
+  justify-content: center;
+
+}
+#categories-title{
+   margin-top: 20px;
+   justify-content: center;
+   
+
+   font:bold;
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+  
+}
+#categories-text{
+  justify-content: center;
+
+  font-family: Poppins;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+
+}
+ /*......Online courses(CSS Style)........*/
+
+ h2{
+  text-align: center; 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+
+.card-deck{
+  width: 1210px;
+  height: 570px;
+   left: 100px;
+   top: 0px;
+}
+   
+   
+.card{
+
+  width: 50px;
+  height: 460px;
+  left: 100px;
+  margin-right: 80px;
+  background: #FFFFFF;
+   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+   border-radius: 18px;
+}
+
+  
+.card-img-top{
+ 
+   width:280px;
+   height: 234px;
+
+   margin-left: 50px;
+   top: 126px;
+   margin-top: 15px;
+
+   background: #FFFFFF;
+   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+   border-radius: 18px;
+}
+/*........Button Style......*/
+.btn-buy-course{
+  
+  padding: 8px;
+  width: 137px;
+  height: 35px;
+  left: 558px;
+  
+  
+  background: #21B573;
+  border-radius: 33px;
+
+  font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 19px;
+  color: #FFFFFF;
+}
+.date {
+  height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0;
+  font-family: Poppins;
+  }
+  
+  .date div {
+  padding: 10px;
+  }
+  
+  .date div img {
+  height: 50%;
+  width: 14%;
+  }
+  
+  .date div+div {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+  }
+  
+  
+/////////////////
+
+.text-muted{
+  display: flex;
+  float: left;
+  text-align: right;
+}
+.container-testimonial{
+  width:450px;
+   height:350px;
+   left: 100px;
+
+   display: flex;
+   justify-self: center;
+
+}
+
+#man{
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  margin-left: 353px;
+  margin-top: 50%;
+  margin-bottom: 55%;
+}
+
+.test1{
+  display: flex;
+  justify-content:end;
+
+}
+/*..........Last part..........*/
+
+/*.......container part...........*/
+.container-table{
+
+  position: absolute;
+  width: 1400px;
+  height: 369px;
+  left: 0px;
+}
+.table{
+  margin-top: 20px;
+}
+
+.foot-1{
+    text-align: center;
+    margin-left: 536px;
+
+  font-family: Poppins;
+   font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+   color: #CDCDCD;
+}
+
+  
